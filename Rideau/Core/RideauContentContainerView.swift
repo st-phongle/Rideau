@@ -155,7 +155,7 @@ public final class RideauContentContainerView: UIView {
     addLayoutGuide(accessibleAreaLayoutGuide)
     addLayoutGuide(visibleAreaLayoutGuide)
 
-    let priority = UILayoutPriority.required
+    let priority = UILayoutPriority.defaultHigh
 
     visible: do {
 
